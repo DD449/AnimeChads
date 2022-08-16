@@ -34,6 +34,13 @@
 
 						</div>
 					</header>
+				<style>
+		
+		.dark-mode {
+                background-color: black;
+                color: white;
+                }	       	               		       		       
+</style>
 
 				<!-- Menu -->
 					<nav id="menu">
@@ -45,6 +52,13 @@
 							<li><a href="elements.html">Watch</a></li>
 							<li><a href="generic.html">Randomiser</a></li>
 							<li><a href="elements.html">About Us</a></li>
+							<li><button style="background-color:white;" onclick="myFunction()">Toggle dark mode</button></li>
+							<script>	
+                                                        function myFunction() {
+                                                        var element = document.body;
+                                                        element.classList.toggle("dark-mode");
+                                                        }
+                                                        </script>
 						</ul>
 					</nav>
 
